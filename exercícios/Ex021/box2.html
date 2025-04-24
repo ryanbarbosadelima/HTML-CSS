@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: rgba(134, 165, 206, 0.637);
+            font-family: Arial, Helvetica, sans-serif;
+            color: blue;
+            margin: 1px;
+        }
+
+        header{
+            background-color: white;
+            border: 1px;
+            border-color: black;
+            border-style: solid;
+            text-align: center;
+            padding-bottom: 5px;
+        }
+
+        header > h1 {
+            text-decoration: underline;
+        }
+        header > nav {
+            margin: auto;
+            
+        }
+        nav > a {
+            color: rgb(0, 0, 112);
+            text-align: center;
+            text-decoration: none;  
+            padding-bottom: 2px;
+            background-color: #5879be;
+            padding-right: 70px;
+            padding-left: 70px;
+            box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.562);
+            border-radius: 5px;
+        }
+        nav > a:hover {
+            color: red;
+            background-color: blue;
+        }
+        main{
+            background-color: white;
+            border: 1px;
+            border-style: solid;
+            border-color: black;
+        }
+        main > section > article > h2 {
+            text-align: center;
+            text-decoration: underline;
+
+        }
+        main > section > article > p {
+            text-align: justify;
+            background-color: #5879be;
+            color: white;
+            border-radius: 10px ;
+            padding: 5px;
+        }
+        main > section > article > aside {
+            text-align: right;
+            background-color: #5879be;
+            color: white;
+            border-radius: 10px ;
+            padding: 0px;
+            padding-right: 1px;
+            margin-left: 1740px;
+        }
+        footer {
+            background-color: #5879be;
+            color: rgb(0, 0, 112);
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+            border: 1px;
+            border-color: black;
+            border-style: solid; 
+        }
+        
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Site</h1>
+            <nav>
+               <a href="*">Link</a>
+               <a href="*">Link</a>
+               <a href="*">Link</a>
+               <a href="*">Link</a>
+               <a href="*">Link</a>
+            </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste vero est quas dicta nam cumque vel ad enim numquam autem iure culpa quam, adipisci asperiores neque totam dolore assumenda molestiae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque adipisci facere repellat odit labore rerum, asperiores magni odio similique nesciunt ipsa, voluptates accusamus excepturi, illo a doloribus repellendus laborum nisi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias beatae minus ipsa voluptates iure non eum. Illo, fugiat. Quibusdam ipsa voluptates similique eum, facilis nulla quo beatae aliquam ipsam aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi dignissimos corrupti sint molestias repudiandae maiores saepe, eius eveniet cumque culpa quia quod quibusdam aliquid, facere esse ullam. Voluptatibus, dolorem?</p>
+                <aside>
+                    <p>Escrito por Ryan</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Ryan Barbosa</p>
+    </footer>
+</body>
+</html>

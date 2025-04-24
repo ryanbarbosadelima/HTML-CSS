@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-desafio2.ico" type="image/x-icon">
+    <title>Outras Formatações</title>
+</head>
+<body><h1>Outras formas de formatação</h1>
+    <h2>Código fonte e Pré-Formatação</h2>
+    <p>O comando <code>document.getElementByld('teste')</code> é escrito em linguagem JavaScript.</p>
+    <p>A mudança de "fonte" na frase acima é utilizado a tag "code" que é ideal para demonstrar linhas de código pois os caracteres se transformam em uniespassados, ou seja, ocumpam o mesmo espaço ocasionando uma melhor visualização.Entretanto somente a tag "code" não permite que a linha de código fique organizada. Exemplo:</p>
+    <code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'0 número {num} é PAR)
+        else:
+            print(f'0 número {num} é ÍMPAR)
+        print('Fim do programa')
+    </code>
+    <p>Para que se organize com as quebras linhas da maneira certa é usar a tag "pre"</p>
+
+    <pre>
+        <code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'0 número {num} é PAR)
+        else:
+            print(f'0 número {num} é ÍMPAR)
+        print('Fim do programa')
+    </code>
+</pre>
+<h2>Citações Simples</h2>
+<p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+<p>Nesse caso é mais simples apenas colocar em ""? Sim, porém utilizando a tag "q" damos sentido ao trecho sendo ele uma citação.</p>
+<h2>Citações Completas</h2>
+<p>Segundo Frederich Nietzsche, em seu livro A Filosofia na era trágica dos gregos:</p>
+    <blockquote> <cite= https://www.google.com.br/books/edition/A_Filosofia_na_era_trágica_dos_gregos/1mk4T8fKlXYC?hl=pt-BR&gbpv=1>   Devemos lembrar ainda que, naqueles tempos, aqueles que citavam os pré-socráticos eram também eles mesmos filósofos. Já com os filósofos áticos do século IV a.C. (Platão, Aristóteles) começa uma longa e interessate história de torções</blockquote>
+
+<h2>Abreviações</h2>
+<p>Estou aprendendo <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+
+
+
+</body>
+</html>

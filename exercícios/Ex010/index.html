@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-desafio2.ico" type="image/x-icon">
+    <title>HyperLinks</title>
+</head>
+
+<body> 
+    <h1>Usando Links Externos</h1>
+    <p>
+        Exemplo link que fecha essa aba e me joga pra outro site:
+
+        Veja receitas no link a seguir <a href="https://www.receiteria.com.br"> receitas online</a>
+
+    </p>
+
+    <p>
+        Exemplo link outra aba:
+
+        Veja receitas no link a seguir: <a href="https://www.receiteria.com.br" target="_blank" rel="external"> site para receitas online
+        </a>
+    </p>
+
+    <h2>Por que isso ocorre?</h2>
+
+    <p>Isso acontece pois dentro da tag "a" é necessário que se coloque alguns elementos como o "target="_blank"" e o "rel="external""</p>
+
+    <h1>Links Internos</h1>
+
+    <p>É possível também que se acesse páginas dentro do seu próprio site, inicialmente é necessário que se abra um novo arquivo dentro da mesma pasta deste. Por exemplo temos agora a nossa <a href="pag002.html" target="_self"  rel="next">SEGUNDA PÁGINA</a></p>
+
+    <p><a href="exemplo-pag-003/pag003.html" target="_self"  rel="next">TERCEIRA PAGINA</a></p>
+
+    <p>É importante destacar que quando as páginas seguintes forem do próprio site existem alguns complementos dentro da tag "a", como por exemplo a utilização do "target="_self""", o "rel="next"" para páginas posteriores e o "rel="prev"" para páginas anteriores</p>
+
+    <h1>Links para Download</h1>
+
+    <p>Geralmente esses links para download utilizam formatos de arquivos diferentes, é importate então estar bem atento ao formato do arquivo que irá disponibilizar para baixar quando for colocá-lo no código.</p>
+    <p>Links de Downloads
+        <ul>
+            <li> <a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Livro PDF</a></li>
+            <li> <a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Livro ZIP</a></li>
+        </ul>
+    </p>
+</body>
+</html>

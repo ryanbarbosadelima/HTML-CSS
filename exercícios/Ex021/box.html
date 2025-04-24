@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas</title>
+    <style>
+        h1{
+            /*Box-Level*/
+            background-color: rgb(255, 255, 255);
+            height: 300px;
+            width: 300px;
+            /*Abaixo colocarei apenas shorthands, porém existe a maneira normal também*/
+            border: 5px dashed rgb(218, 104, 170);
+            padding: 10px;
+            margin: 20px 20px 40px 20px;
+            outline: 5px solid rgb(193, 27, 243);
+        }
+        a{
+            /*Inline-Level*/
+            border-width: 5px;
+            border-style: solid;
+            border-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa Box-Level</h1>
+    <p>Parágrafos também são exemplos de box-level, porém os links <a href="*"> são exemplos de caixas inline-level</a>, Vamos ver como tudo isso funciona</p>
+</body>
+</html>
